@@ -58,6 +58,7 @@ ul{
 #task-list{
 	border:solid rgba(0,0,0,0.1) 1px;
 	min-height:70%;
+	max-height:70%;
 	margin-top:2em;
 	background:white;
 	overflow:auto;
