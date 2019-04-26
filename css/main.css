@@ -1,0 +1,66 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+html{
+	background:url("https://iazhar.com/wp-content/uploads/2016/10/Tree-Silhouette-Sunrise-Wallpaper.jpg");
+	background-size:cover;
+}
+
+body{
+	background:rgba(0,0,0,0.4);
+}
+
+ul{
+	list-style-type: none;
+}
+
+#main-body{
+	/*border:solid black 2px;*/
+	width:40%;
+	margin:0 auto;
+	background:white;
+	border-radius:5px;
+	padding:2em;
+}
+
+#main-body h2{
+	margin-bottom:1em;
+}
+
+#main-body input[type="text"]{
+	border-radius:5px;
+	border:solid rgba(0,0,0,0.1) 1px;
+	width:80%;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+	background:none;
+}
+
+#main-body button{
+	width:18%;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+	border:solid rgba(0,0,0,0.1) 1px;
+	border-radius:5px;
+}
+
+#current-date{
+	color:white;
+}
+
+#task-list{
+	border:solid rgba(0,0,0,0.1) 1px;
+	min-height:70%;
+	margin-top:2em;
+	background:white;
+	overflow:auto;
+	padding:2em;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+}
